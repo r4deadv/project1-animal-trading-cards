@@ -3,9 +3,10 @@ body {
     font-size: 14px;
     margin: 0;
     padding: 0;
-    /*background: url("..//images/wood.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;*/
+    background: #cff;
+    background: url("..//images/concrete_wall.png");
+    background-repeat: repeat;
+    background-size: contain;
 }
 #card-container {
     width: 300px;
@@ -13,7 +14,7 @@ body {
     border: 1px solid #D1D1D1;
     border-radius: 10px;
     padding: 0 15px;
-    box-shadow: 5px 10px 10px rgba(209, 209, 209, 0.8);
+    box-shadow: 5px 5px 10px rgba(150, 150, 150, .75);
     background: linear-gradient(45deg, #cff, #fcc);
 }
 
